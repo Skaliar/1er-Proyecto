@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Piero",
+    "telefono": "095588625",
+    "mail": "pieroestevez88@gmail.com",
+    "mensaje": "muy buen servicio"
+  },
+  {
+    "id": 2,
+    "name": "asdasd",
+    "telefono": "456456",
+    "mail": "asdas@gmail.com",
+    "mensaje": "asdasda"
+  },
+  {
+    "id": 3,
+    "name": "diego",
+    "telefono": "23642746",
+    "mail": "diego@gmail.com",
+    "mensaje": "esto es una prueba"
+  },
+  {
+    "id": 4,
+    "name": "perro",
+    "telefono": "456123",
+    "mail": "perro@gmail.com",
+    "mensaje": "prueba"
+  }
+]
