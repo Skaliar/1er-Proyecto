@@ -1,0 +1,514 @@
+body {
+  font-family: system-ui, -apple-system, "Roboto", sans-serif;
+  margin: 0;
+  padding: 10px, 40px, 30px, 40px;
+  background-color: rgb(235, 235, 235);
+  overflow: hidden;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(78, 77, 158);
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-radius: 15px, 15px, 0, 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 1.87rem;
+  background-color: chocolate;
+  width: 14rem;
+  height: 3rem;
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+  cursor: pointer;
+  border: solid 1px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+  background-color: rgb(160, 81, 24);
+}
+
+section {
+  position: relative;
+  padding: 0px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+nav a:hover {
+  color: white;
+  font-weight: bolder;
+}
+
+#parrafoGaleria {
+  padding: 0px 21rem;
+  text-align: center;
+}
+
+#SeccionArticulos {
+  margin: 4.37rem 0;
+}
+
+.centered-box {
+  position:absolute;
+margin-right: 5rem;
+margin-left: 5rem;
+
+  color: #fff;
+  background-color: rgb(78, 77, 158, 0.8);
+  text-align: center;
+  padding: 1.25rem 1.87rem;
+}
+
+.image-section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.25rem;
+  text-align: center;
+}
+.image-section img{
+  margin: 2rem;
+  width: 100%;
+  display: block;
+  height: 75%;
+}
+
+.Galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ImgGrupo1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.ImgGrupo2 {
+  display: flex;
+  flex-direction: row;
+}
+.grid-container {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  border: 1px solid #ddd;
+  padding: 0.62rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 0.62 0;
+  margin: 3.12rem 0 0 0;
+  text-align: center;
+  bottom: 0;
+}
+
+.Fullstack {
+  margin-bottom: 0.5rem;
+  height: auto;
+  width: 30rem;
+}
+
+.Empresa {
+  margin-bottom: 0.5rem;
+  height: auto;
+  width: 30rem;
+}
+
+.Contactanos {
+  height: auto;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.Contacto {
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-image {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 1.87rem;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.arti {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.Articulos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Articulos article {
+  background-color: rgb(78, 77, 158);
+  padding: 1.5rem;
+  margin-top: 4rem;
+}
+
+.Articulos img {
+  border-radius: 100%;
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: 10rem;
+  border: 0.3rem solid rgb(235, 235, 235)
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container div {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Formulario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25rem;
+  margin: 5rem;
+  margin-left: 20rem;
+
+  align-items: center;
+  background-color: rgb(55, 53, 116);
+}
+
+.Formulario input {
+  width: 15rem;
+  margin: 1rem;
+  height: 1.5rem;
+}
+
+.Formulario h2 {
+  font-weight: bolder;
+  color: #fff;
+}
+
+.Formulario button {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.Suscribete {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25rem;
+  margin: 5rem;
+  margin-right: 20rem;
+  align-items: flex-start;
+}
+
+.Suscribete input {
+  width: 15rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 1.5rem;
+}
+
+.Suscribete p {
+  padding-right: 2rem;
+  color: black;
+}
+
+#Mensaje {
+  height: 4rem;
+  overflow-y: auto;
+  resize: none;
+  margin-top: 1rem;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.redes img {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+}
+
+.prueba{
+  display: flex;
+  flex-direction: row;
+}
+
+#error{
+  color: red;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.Listado{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  }
+  
+  .datosContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    border: 3px solid rgb(55, 53, 116);
+    overflow-y: auto;
+    font-size: large;
+    
+  }
+  
+  
+  .pMensaje{
+    word-wrap: break-word;
+    width: 10rem;
+  }
+  
+
+
+/* Reglas de medios para dispositivos móviles */
+@media (min-width: 360px) and (max-width: 767px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-size: 0.84rem;
+  }
+
+  .image-section img{
+    width: 90%;
+  }
+  .centered-box{
+    font-size: smaller;
+  }
+
+  .ImgGrupo1 {
+    display: none;
+  }
+
+  .ImgGrupo2 {
+    display: none;
+  }
+
+  .arti {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .arti article {
+    height: 75%;
+    margin: 0.8rem 5rem;
+  }
+
+  #parrafoGaleria {
+    width: 90%;
+    padding: 0;
+  }
+
+  .Articulos #SeccionArticulos {
+    margin: 1.5rem;
+  }
+
+  .Empresa {
+    width: 100%;
+  }
+
+  .Fullstack {
+    width: 100%;
+  }
+
+  .Contactanos {
+    height: 100%;
+  }
+
+  .Contactanos p {
+    margin: 0.5rem;
+    font-size: 10px;
+  }
+
+  .Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+  }
+
+  .Formulario {
+    margin-left: 0;
+    width: 80%;
+    margin-right: 0;
+  }
+
+  .Suscribete {
+    margin: 0;
+    align-items: center;
+  }
+
+  .Suscribete p {
+    text-align: center;
+    padding: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .Articulos img{
+    display: none;
+  }
+
+  .prueba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .datosContainer{
+    font-size:medium;
+    width: 80%;
+    margin-top: 3rem;
+  }
+
+  #jsonForm h1{
+    margin-top: 2rem;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  footer p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-size: 0.84rem;
+  }
+
+  #parrafoGaleria {
+    padding: 0 5rem;
+  }
+
+  .Galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.25rem;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .grid-container img{
+    box-sizing: border-box;
+  }
+
+  .ImgGrupo1 {
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    height: auto;
+    display: block;
+  }
+
+  .ImgGrupo2{
+    display: none;
+  }
+
+  .arti article{
+    width: 80%;
+    margin: 0.5rem;
+    padding: 0.5rem
+  }
+
+  .Articulos img{
+    top: 7.5rem;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .image-section img{
+    margin: 1.2rem;
+    width: 85%;
+  }
+
+
+}
+
+
